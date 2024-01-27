@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Bank Record</h1>
+    <table>
+      <caption>
+        Bank Info
+      </caption>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Location</th>
+          <th>Revenue</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>DBS</td>
+          <td>Marina Bay</td>
+          <td>32000</td>
+          <td>5000</td>
+        </tr>
+        <tr>
+          <td>UOB</td>
+          <td>Raffles Place</td>
+          <td>21000</td>
+          <td>3000</td>
+        </tr>
+        <tr>
+          <td>OCBC</td>
+          <td>Robertson</td>
+          <td>34000</td>
+          <td>4000</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <select name="bankSelector" id="bankSelector">
+      <option value="DBS">DBS</option>
+      <option value="UOB">UOB</option>
+      <option value="OCBC">OCBC</option>
+    </select>
+    <input type="number" name="revenue" id="revenue" placeholder="Revenue" />
+    <button id="revenueBtn">Add to Revenue</button>
+    <script src="index.js"></script>
+  </body>
+</html>
